@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>StudyShorts</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>📚 StudyShorts</h1>
+
+    <p>
+      अपने Chapter PDF को Shorts में बदलें
+    </p>
+
+    <div class="upload-box">
+
+      <input
+        type="file"
+        id="pdfFile"
+        accept=".pdf"
+      >
+
+      <button onclick="convertPDF()">
+        Convert to Shorts
+      </button>
+
+    </div>
+
+    <div id="result"></div>
+
+    <!-- Video Preview -->
+    <div id="videoPreview"></div>
+
+  </div>
+
+
+  <!-- Existing PDF + Gemini code -->
+  <script src="script.js"></script>
+
+  <!-- Video preview code -->
+  <script src="video.js"></script>
+
+</body>
+        </html>
