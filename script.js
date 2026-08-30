@@ -750,3 +750,5 @@ async function createVideo(data) {
       status.innerHTML = `
         ❌ Video नहीं बन सकी।<br><br>
         ${escape
+window.convertPDF = convertPDF;
+window.createVideo = createVideo;
